@@ -7,10 +7,10 @@
   </head>
   <body>
   
-    <h1>Volunteer Form</h1>
       <Form method="POST"  action="http://bloomingdale.sat.iit.edu/kriedan/lab3formscript.php">
     <Fieldset>
-        <h3>My Info</h3>
+        <legend>Volunteer Form</legend>
+        <label>My Info</label>
         <div>
           <label>First Name: <input type="text" name="field 1"></label>
         </div>
@@ -41,40 +41,42 @@
           <option value="Age7">65 and over</option>
         </label></select>
       </Fieldset>
-          <h3>My Availability</h3>
+          
           <Fieldset>
+          <legend>My Availability</legend>
+          <label>Days Available</label>
             <div>
               <div>
-                <input type="checkbox" name="field 1" value="day1">Sunday
+                <input type="checkbox" name="available_field" value="day1">Sunday
               </div>
               <div>
-                <input type="checkbox" name="field 2" value="day2">Monday
+                <input type="checkbox" name="available_field" value="day2">Monday
               </div>
               <div>
-                <input type="checkbox" name="field 3" value="day3">Tuesday
+                <input type="checkbox" name="available_field" value="day3">Tuesday
               </div>
               <div>
-                <input type="checkbox" name="field 4" value="day4">Wednesday
+                <input type="checkbox" name="available_field" value="day4">Wednesday
               </div>
               <div>
-                <input type="checkbox" name="field 5" value="day5">Thursday
+                <input type="checkbox" name="available_field" value="day5">Thursday
               </div>
               <div>
-                <input type="checkbox" name="field 6" value="day6">Friday
+                <input type="checkbox" name="available_field" value="day6">Friday
               </div>
               <div>
-                <input type="checkbox" name="field 7" value="day7">Saturday
+                <input type="checkbox" name="available_field" value="day7">Saturday
               </div>
               <div>
                 <label>Any Comments?</label>
                </div>
               <div>
-               <textarea name="comments_field"rows="5"cols="20" ></textarea>
+               <textarea name="comments_field"rows="4"cols="18" ></textarea>
               </div>
             </div>
            </Fieldset>
-                   <buttom type="submit" value="Send Me">
-                   <input type="hidden" name="hidden_field" value="Yan">
+                   <input type="submit" value="Send Me">
+                   <input type="hidden" name="hidden_field" value="ymassivi">
                    </buttom>
              </Form>
   
