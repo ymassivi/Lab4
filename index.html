@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
       <meta charset="utf-8">
       <title>ITMD-361 Lab4</title>
@@ -23,15 +23,13 @@
         <div>
           <label>Email Address: <input type="text" name="field 4"></label>
         </div>
-        
         <div>
            <label>Gender: <input type="radio" name="gender_field" value="male"/>Male </label>
            <label><input type="radio" name="gender_field" value="female"/>Female</label>
-        </div>
-        
-        
-        <div>
-        <label>Age: <select Name="Agespace">
+        </div>  
+      <div>
+        <label>Age:</label>
+        <select Name="Age_field">
           <option value="Age1">under 18</option>
           <option value="Age2">18-24</option>
           <option value="Age3">25-34</option>
@@ -39,10 +37,10 @@
           <option value="Age5">45-54</option>
           <option value="Age6">55-64</option>
           <option value="Age7">65 and over</option>
-        </label></select>
-      </Fieldset>
-          
-          <Fieldset>
+        </select>
+      </div>
+      </Fieldset>     
+      <Fieldset>
           <legend>My Availability</legend>
           <label>Days Available</label>
             <div>
@@ -71,14 +69,13 @@
                 <label>Any Comments?</label>
                </div>
               <div>
-               <textarea name="comments_field"rows="4"cols="18" ></textarea>
+               <textarea name="comments_field" rows="4" cols="18" ></textarea>
               </div>
             </div>
-           </Fieldset>
+         </Fieldset>
                    <input type="submit" value="Send Me">
                    <input type="hidden" name="hidden_field" value="ymassivi">
-                   </buttom>
-             </Form>
+       </Form>
   
 
   </body>
